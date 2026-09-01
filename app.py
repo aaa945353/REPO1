@@ -9,8 +9,9 @@ age=2026-dob3
 gender=str(st.text_input("male or female: "))
 height=int(st.number_input("enter your height: "))
 weight=float(st.number_input("enter your body weight: "))
-mbmr=(10*weight)+(6.25*height)-(5*age)+5
-fbmr=(10*weight)+(6.25*height)-(5*age)-161
+if st.button("GET RESULT"):
+    mbmr=(10*weight)+(6.25*height)-(5*age)+5
+    fbmr=(10*weight)+(6.25*height)-(5*age)-161
 old=st.write("your actual age is: ",age,"years", 12-dob2,"months", 30-dob1,"days" )
 if gender=="male":
     st.write("HI",name,"YOUR BMR=",mbmr)
