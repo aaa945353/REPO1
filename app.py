@@ -28,6 +28,18 @@ else:
 
 
 
+)
 
-
-#st.number_input() st.text_input()
+#credit
+st.divider()
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <p style='font-weight: bold; font-size: 16px;'>CREDIT</p>
+        <p>This BMR Calculator is created by</p>
+        <p style='font-weight: bold;'>ALAKH SHUKLA</p>
+        <p>Contact: <b>9453536874</b></p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
